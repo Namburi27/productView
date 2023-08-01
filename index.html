@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product view</title>
     <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
     <div class="container">
-        <div class="product">
-            <img src="image-product-desktop.jpg" alt="product" class="image1">
-        </div>
-        <div class="product">
-            <img src="image-product-mobile.jpg" alt="product" class="image2">
-        </div>
+        <picture>
+            <source media="(max-width: 650px)" srcset="image-product-mobile.jpg">
+            <source media="(max-width: 465px)" srcset="image-product-mobile.jpg">
+            <img src="image-product-desktop.jpg" alt="Product" class="img">
+        </picture>
         <div class="info">
-            <p>PERFUME</p>
-            <h1>Gabrielle Essence Eau De Parfum</h1>
-            <p>A floral,solar and voluptuous interpretation composed by Olivier Polge,
-            Perfumer-Creator for the House of CHANEL.
-            </p>
-            <h2>$149.99<span >$169.99</span></h2>
-            <button class="icon-cart">Add to Cart</button>
+                <h5>PERFUME</h5>
+                <h1>Gabrielle Essence Eau De Parfum</h1>
+                <p>A floral,solar and voluptuous interpretation composed by Olivier Polge,
+                Perfumer-Creator for the House of CHANEL.
+                </p>
+                <h2>$149.99<span >$169.99</span></h2>
+                <button class="icon-cart"><i><img src="icon-cart.svg">Add To Cart</i></button>
         </div>
     </div>
 </body>

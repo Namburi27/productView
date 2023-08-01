@@ -13,76 +13,77 @@ body{
 
 .container{
     background-color:white;
-    height: 50vh;
-    width:70vh;
-    border-radius: 20px;
+    height: 60vh;
+    width:80vh;
+    border-radius: 10px;
     display:flex;
     align-items: center;
 }
 
-img{
+.img{
     float:left;
-    height: 50vh;
-    width:30vh;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    height: 60vh;
+    width:40vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
-.info{
-    align-items: center;
-    text-align: justify;
-    padding-left: 25px;
+h5{
+    font-family: 'Montserrat', sans-serif;
+    color:hsl(228, 12%, 48%);
+    margin: 2rem;
+    letter-spacing: 0.5em;
+    margin-bottom: 0em;
 }
 
 h1{
     font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    margin: 2rem;
+    margin-bottom: 0em;
 }
 
 p{
     font-family: 'Montserrat', sans-serif;
     color:hsl(228, 12%, 48%);
-    font-size: 14px;
+    font-size: 0.9rem;
     text-align: left;
+    margin: 2rem;
+    margin-bottom: 0em;
 }
-
-.image2{
-    display:none;
-}
-
 .icon-cart{
     height:6vh;
     width:30vh;
     background-color:hsl(158, 36%, 37%);
     border-radius: 10px;
+    margin:2rem;
     color: white;
-    text-align: center;
     align-items: center;
+    line-height: 0%;
+    font-family: 'Montserrat', sans-serif;
 }
 
+
 span{
-    font-size: 10px;
-    margin: 10px;
+    font-size: 0.5rem;
     color:hsl(228, 12%, 48%);
-    padding: 2rem;
+    margin: 2rem;
     text-decoration-line: line-through;
 }
 
 h2{
     color:hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
-}
-
-.cart{
-    height: 20px;
-    width: 20px;
+    margin: 2rem;
+    margin-bottom: 0em;
 }
 
 
 @media (max-width:760px){
     body{
-        height: 100%;
+        height: auto;
+        width: auto;
         align-items: center;
-        font-size: 12px;
         justify-content: center;
   } 
   .container{
@@ -92,19 +93,15 @@ h2{
     border-radius: 10px;
     align-items: center;
   }
-  
-.product{
-    max-width: 150px;
-    height: 200px;
-  }
-  .image1{
-    display: none;
-  }
 
-  .info{
-    justify-content: space-between;
-    margin: 10px;
+  .img{
+    height: 40%;
+    width:50vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+}
+  .h2{
+    margin: 3rem;
   }
-
-
 }
